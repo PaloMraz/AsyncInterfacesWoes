@@ -13,6 +13,9 @@ internal class Program
     Console.WriteLine("Press ENTER to call async service");
     Console.ReadLine();
     await PerformServiceTaskAsync();
+
+    Console.WriteLine("Press ENTER to exit");
+    Console.ReadLine();
   }
 
 
